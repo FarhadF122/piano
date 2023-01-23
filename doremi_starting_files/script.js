@@ -59,5 +59,5 @@ function sndPlay(key) {
             break;
         default:
             console.log(key);
-        }
+    }
 }
