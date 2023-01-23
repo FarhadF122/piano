@@ -1,7 +1,7 @@
 let mykeys = document.querySelectorAll(".key");
 
 for (let x = 0; x < mykeys.length; x++ ) {
-    mykeys[x].addEventListener('click', function() {
+    mykeys[x].addEventListener('click', () => {
         sndPlay(mykeys[x].innerHTML.toLowerCase());
     })
 }
